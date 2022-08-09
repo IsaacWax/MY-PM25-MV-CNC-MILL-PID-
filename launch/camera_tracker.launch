@@ -3,6 +3,7 @@
 
   <!-- you should first setup your camera grabbing/rectification nodes,
        see image_pipeline documentation. -->
+       <!-- need to try with a real usb cam-->
   <remap from="camera/image_raw" to="camera/image_rect/"></remap>
   <node pkg="usb_cam" name="camera" type="usb_cam_node" output="log">
 		
